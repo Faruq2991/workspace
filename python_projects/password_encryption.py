@@ -4,7 +4,7 @@ def view():
     with open('passwords.txt', 'r') as f:
         for line in f.readlines():
             data = line.rstrip()
-            user, passw = data.split("|")
+            user, passw, = data.split("|",)
             print("User:", user, "Password:", passw)
          
 def add():
@@ -13,8 +13,6 @@ def add():
     
     with open('passwords.txt', 'a') as f:
         f.write(name + "|" + pwd + "\n") 
-
-
 
 while True:
     mode = input("would like to create or view password? (Add/View) or q to Quit: ").lower()
