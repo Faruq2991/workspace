@@ -17,7 +17,7 @@ elif prompt_1 == "right":
     prompt_1 = input("You arrived at an old wobbly bridge. Do you wish to cross (Yes/No): ").lower()
     
     if prompt_1 == "yes":
-        
+
         prompt_1 = input("You crossed and met an old man at the other side. Do you engage or ignore him (engage/ignore): ").lower()
         if prompt_1 == "engage":
             print("You greeted the stranger and he gave you a gold chest. ")
@@ -33,3 +33,13 @@ elif prompt_1 == "right":
 else:
     print("Not a valid option. You lose")
     quit()
+
+
+    """"
+    Feature for Verson 2 of the game:
+    1- introduce more adventures and make the stages harder e.g meeting wild animals and fighting.
+    2- players should choose a weapon for thier journies.
+    3- certain actions should allow them gain some ingame tokens like water, extra life, food, herbs and more
+    4- 
+    
+    """
