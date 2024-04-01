@@ -19,7 +19,7 @@ while True:
 
 
 max_score = 50
-player_score = [0 for _ in range(players)] # Creates an empty list that stores the score acoording to thier number.
+player_score = [0 for _ in range(players)] # Creates an empty list that stores the score according to thier number.
 
 while max(player_score) < max_score:
 

@@ -11,4 +11,3 @@ else:
    total = hours * rate
 
 print(total)
-
