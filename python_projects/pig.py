@@ -6,6 +6,7 @@ def roll():
     roll = random.randint(min_value, max_value)
 
     return roll
+
 while True:
     players = input("Enter a of players (2-4): ")
     if players.isdigit():
@@ -26,6 +27,7 @@ while max(player_score) < max_score:
 
     for player_idx in range(players):
         print("\nPlayer number",player_idx + 1, "your turn just started.")
+        print("Your total score is:", player_score[player_idx], "\n")
         current_score = 0
 
         while True:
