@@ -16,7 +16,7 @@ def binary_search(list, element):
 
         if element == list[middle]:
             return middle
-        if element < list[middle]:
+        elif element < list[middle]:
             ending = middle -1
         else: 
             start = middle + 1
